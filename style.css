@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  background-color: #ccc;
+}
+.menu {
+  background-image: url(../imagens/bg-3.jpg);
+  height: 500px;
+  background-position: center right;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
+.menu .list {
+  text-align: right;
+  margin: 30px 20px 0px 0px;
+}
+.menu .list li {
+  margin-left: 15px;
+  display: inline-block;
+}
+.menu .list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  padding: 15px;
+  background: rgba(51, 47, 47, 0.164);
+  border: 1px solid white;
+}
+.menu .list li a:hover {
+  background: rgba(51, 47, 47, 0.589);
+}
+.hero {
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+}
+.hero h1 {
+  font-size: 55px;
+  text-shadow: 2px 2px 2px rgb(12, 11, 11);
+  text-transform: uppercase;
+}
+.hero p {
+  margin-top: 45px;
+  padding: 15px;
+  border-bottom: 3px solid white;
+  background-color: rgba(0, 0, 0, 0.479);
+  display: inline-block;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+/*Estudar mais a parte de box sizing e overflow*/
+.content {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+  overflow: auto;
+}
+.card {
+  width: 32%; /*cada card tem 32% totalizando 96%*/
+  float: left;
+  box-sizing: border-box;
+}
+.card img {
+  width: 100%;
+  display: block; /*display: block; é usado para transformar a imagen em block, pois a imagen é um elemento de linha*/
+}
+.card-1, .card-2 {
+  margin-right: 2%;/*esses 2% são os espaços do meio entre as cards totalizando 100% (96% + 2% = 100%)dentro da section!!!*/
+}
+.card p{
+  color: white;
+  background-color: rgb(56, 38, 38);
+  padding: 15px;
+  margin: 0%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;/* espaçamento entre letras*/
+}
+.navbar h2{
+    background-color: rgba(0, 0, 0, 0.089);
+    border-bottom: 3px solid #ccc;
+    padding: 15px;
+    margin: 0%;
+}
+.content-footer{
+    text-align: center;
+    background-color: rgba(138, 121, 121, 0.849);
+    color: white;
+    padding: 30px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
